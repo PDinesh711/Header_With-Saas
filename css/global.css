@@ -1,0 +1,9 @@
+.font-ta {
+  font-family: "Mukta Malar", sans-serif;
+}
+
+.color-anim {
+  transition: 500ms;
+  -webkit-animation: color-change 10s infinite;
+          animation: color-change 10s infinite;
+}/*# sourceMappingURL=global.css.map */

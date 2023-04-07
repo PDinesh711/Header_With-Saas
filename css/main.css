@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.font-ta {
+  font-family: "Mukta Malar", sans-serif;
+}
+
+.color-anim {
+  transition: 500ms;
+  -webkit-animation: color-change 10s infinite;
+          animation: color-change 10s infinite;
+}
+
+@-webkit-keyframes color-change {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: green;
+  }
+}
+
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: green;
+  }
+}
+.btn {
+  padding: 0.8rem 1.6rem;
+}
+
+.header {
+  padding: 2rem 15rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+.header--menu {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+}
+.header--menu__item > a {
+  margin-right: 1.5rem;
+  font-size: 14px;
+  font-weight: 600;
+  color: #242424;
+}
+.header--menu__item > a:hover {
+  color: #3f43fd;
+  transition: all 0.2s ease 0.2s;
+}
+.header--menu__item > a.active {
+  color: #3f43fd;
+}/*# sourceMappingURL=main.css.map */

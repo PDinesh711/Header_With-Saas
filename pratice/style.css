@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    width: 100px;
+    height: 50px;
+    cursor: grab;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+ul li {
+    display: inline-block;
+    padding: 20px 25px;
+    color: #fff;
+}
+
+a:active , ul li:hover {
+    color: black;
+}
+
+.bg-img {
+    width: 100%;
+    height: 500px;
+    padding-top: 80px;
+}
+.hero-cointainer {
+    background-image: url(https://imgs.search.brave.com/l7rW7hne24-WiEgD20tKN5r5bWE_wQ8pND0CDDxON7w/rs:fit:1200:1077:1/g:ce/aHR0cDovL3d3dy5h/cnMtbmV0d29yay5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MTgvMTIvd2ViLWRl/dmVsb3BtZW50LnBu/Zw);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+   height: 100vh;
+}
+.hero-cointainer h2{
+    padding-left: 20px;
+}
+.hero-cointainer p{
+   padding-top: 100px;
+   padding-left: 20px;
+    color: gray;
+    max-width: 300px;
+}
+.hero-cointainer h2{
+    padding-top: 90px;
+}
+.common-btn{
+    margin: 15px 20px;
+    width: 120px;
+    height: 50px;
+    border-color: blue;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+.common-btn:hover{
+    width: 140px;
+    color: black;
+    border-color: green;
+    background-color: green;
+}
+.footer{
+    color: #fff;
+    font-weight: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    height: 300px;
+    background-color: blue;
+    padding-left: 640px;
+}
+.footer a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200px;
+} 
+
+
+/******   Contact  ******/
+.form{
+    width: 800px;
+    height: 500px;
+    border-color: black;
+    background-color: blueviolet;
+    display: flex;
+   margin: 10px 400px;
+   border-radius: 10px;
+}
+.input{
+    display: inline-block;
+  padding: 40px 80px;
+  font-size: larger;
+  border-radius: 3px;
+  border-color: tomato;
+}
+.form-head{
+    margin: 3px 250px;
+}
+
+/**   course  */
+.course-section{
+    width: 100%;
+    height: 1000px;
+}
+
+.img-course-section img{
+    width: 600px;
+    height: 250px;
+    padding: 10px 430px;
+}
+.section1{
+    display: inline-block;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+   margin: 10px 100px;
+    background-image: url(https://imgs.search.brave.com/FNq6jFiCBuXSzWKfs2m-v3lHCIHEzPHYjW4TSiOSUBw/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5y/VFk0MzhFN1Q3SE1o/cU1qZ0J1ZXJnSGFF/SyZwaWQ9QXBp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.course-header a{
+    display: inline-block;
+    justify-content: center;
+    text-decoration: none;
+    color: gray;
+    padding: 0 50px;
+    cursor: pointer;
+}
+center{
+    font-size: larger;
+    font-weight: 5300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: whitesmoke;
+}
+.prize-button{
+    margin: 400px 100px;
+   padding: 15px 0; 
+}
+.prize-button button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 1px;
+letter-spacing: 5px;
+}
+.prize-button button:hover{
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: #fff 6px;
+    color: pink;
+    font-weight: 400;
+    
+}
+.prize-button h3{
+    display: block;
+    justify-content: center;
+    color: #fff;
+}
+.section2{
+    display: inline-block;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+   margin: 10px 100px;
+    background-image: url(https://imgs.search.brave.com/mTLNBpVlP4anhQGTxHT03YFmQoss-PwUPQ3EPIChTQI/rs:fit:917:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5t/UmkyRkZuXzRFV3Fs/ZDFWWW91bUxRSGFE/MSZwaWQ9QXBp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section3{
+    display: inline-block;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+   margin: 10px 100px;
+    background-image: url(https://imgs.search.brave.com/ZokSgAUCEnf8gXok-89ZBjIDH_g9vi-etWZcd_IBwT8/rs:fit:750:422:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2QxL2Y5/Lzk2L2QxZjk5NjI4/MjIyNWUyZTljNmI5/ZTg3ZjVjZWQ4OGE2/LmpwZw);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*  assingment */
+.assignment{
+    display: flex;
+    justify-content: center;
+}
